@@ -10,7 +10,7 @@ function Container(props) {
         <div className="container">
             <form className="formitems" noValidate autoComplete="off">
                 <TextField className="inputbox" id="outlined-basic" label="E-mail" variant="outlined" />
-                <TextField className="inputbox" id="outlined-basic" label="Password" variant="outlined" />
+                <TextField className="inputbox" hintText="Password" floatingLabelText="Password" type="password" id="outlined-basic" label="Password" variant="outlined" />
                 <Button variant="contained" className="button" color="primary">
                     Log In
                 </Button>

@@ -17,5 +17,5 @@
 
 .button{
     width: 40%;
-    margin: 40px 0px 0px 145px;
+    margin: 40px 0px 0px 145px !important;
 }
